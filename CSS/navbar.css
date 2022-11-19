@@ -1,0 +1,41 @@
+#navbar{
+    width: 80%;
+    height: 170px;
+    position: absolute;
+    /* background-color: red; */
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px dashed white ; */
+}
+
+.nav-item{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+    font-style: normal;
+}
+
+#nav-logo{
+    height: 40px;
+}
+
+#nav-mode{
+    height: 25px;
+}
+
+#mid-nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (min-width: 1024px){
+    #navbar{
+        display: flex;
+    }
+}

@@ -1,0 +1,288 @@
+
+
+#mainTitle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2%;
+    line-height: 26.1px;
+    width: 93%;
+    font-family: Lunema;
+}
+
+#ani-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 50px; 
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+#abs_cube{
+    width: 14%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    max-width: 90px;
+}
+#abs_sparkle_1{
+    width: 10%;
+    position: absolute;
+    top: 35%;
+    right: 25%;
+    max-width: 100px;
+}
+
+#abs_sparkle_2{
+    width: 5%;
+    position: absolute;
+    bottom: 35%;
+    left: 25%;
+    max-width: 50px;
+}
+
+#abs_ring{
+    width: 14%;
+    position: absolute;
+    bottom: 25%;
+    right: 10%;
+    max-width: 90px;
+}
+
+
+
+/* main Animation CSS */
+
+#svg-container{
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: red; */
+    position: relative;
+}
+
+#svg-container > svg{
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+#svg-container > img{
+    position: absolute;
+    width: 35%;
+    height: auto;
+    top: 28%;
+    left: -22%;
+    transform: scale(0.8);
+    max-width: 630px;
+}
+
+#svg-container circle{
+    fill: rgba(255, 255, 255, 0);
+    filter: drop-shadow( 0px 0px 100px #0056d600);
+    transition: all 0.2s ease-in;
+    stroke: #0055D6;
+    
+}
+
+#svg-container .highlight circle{
+    fill: #0055D6;
+    stroke: #0056d600;
+    filter: drop-shadow( 0px 0px 100px #0055D6);
+}
+
+
+
+.highlight text{
+    opacity: 1;
+}
+
+#Line_1{
+    stroke: #0055D6;
+}
+#Line_2_x{
+    stroke: #282828;
+    transition: all 0.5s linear;
+}
+.highlight#Line_2_x{
+    stroke: #282828;
+    animation: curve-animation 0.4s 1  linear;
+    stroke-dashoffset: 1350px;
+    stroke-dasharray: 1350px;
+}
+#Line_2{
+    stroke: #282828;
+}
+#Line_3_x{
+    transition: stroke-dashoffset 0.5s linear;
+}
+.highlight#Line_3_x{
+    stroke: #0055D6;
+    animation: curve-animation 0.4s 1 reverse forwards linear;
+    stroke-dasharray: 1350px;
+}
+@keyframes curve-animation {
+    0%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 1350px;
+    }
+}
+
+.sub-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    fill: white;
+    opacity: 0.4;
+}
+
+.sub-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    fill: #CBCBCB;
+    opacity: 0.4;
+}
+#review-sec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+.waves1{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+#review-sec  h1{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 35vw;
+    color: #cfcfcf;
+}
+#review-sec  p{
+    font-size: 15;
+    font-weight: 300;
+    text-align: center;
+    margin: 10px 0 50px 0;
+    color: #929292;
+}
+
+#review-sec > #rev-img{
+    width: 80%;
+    margin-bottom: 50px;
+    max-width: 600px;
+}
+
+#grp-2 circle,#grp-3 circle,#grp-2 text,#grp-3 text{
+    transition-delay: 0.3s;
+}
+
+@media screen and (min-width: 0px){
+    #ani-heading{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #abs_cube{
+        top: 20%;
+    }
+    #abs_ring{
+        bottom: 20%;
+    }
+    #abs_sparkle_1{
+        top: 30%;
+    }
+    #mainTitle{
+        font-size: 25px;
+        line-height: 29px;
+    }
+    #ani-heading{
+        font-size: 30px;
+    }
+    #review-sec  h1{
+        font-size: 30px;
+    }
+    #review-sec  p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #abs_cube{
+        top: 17%;
+    }
+    #abs_ring{
+        bottom: 17%;
+    }
+    #abs_sparkle_1{
+        top: 25%;
+    }
+    #abs_sparkle_2{
+        bottom: 30%;
+    }
+    #mainTitle{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    #ani-heading{
+        font-size: 40px;
+    }
+    #review-sec  h1{
+        font-size: 40px;
+    }
+    #review-sec  p{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #abs_cube{
+        top: 30%;
+    }
+    #abs_ring{
+        bottom: 30%;
+    }
+    #abs_sparkle_1{
+        top: 25%;
+    }
+    #abs_sparkle_2{
+        bottom: 30%;
+    }
+    #mainTitle{
+        font-size: 50px;
+        line-height: 50px;
+        width: 70%;
+    }
+    #review-sec  h1{
+        font-size: 50px;
+    }
+    #review-sec  p{
+        font-size: 35px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1400px) {
+    #mainTitle{
+        font-size: 60px;
+        line-height: 65px;
+    }
+}
