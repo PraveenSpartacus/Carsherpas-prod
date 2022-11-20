@@ -20,7 +20,9 @@ border-color: #ffffff47;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,500&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
 
 @font-face {
     font-family: `Lunema`;
@@ -48,6 +50,7 @@ body{
 #hero{
     width: 100%;
     height: 100vh;
+    /* height: fit-content; */
     position: relative;
     overflow: hidden;
     display: flex;
@@ -69,3 +72,7 @@ body{
 }
 
 
+
+.x{
+    border: 2px dashed rgba(255, 255, 255, 0.526);
+}

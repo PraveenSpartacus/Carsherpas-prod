@@ -56,7 +56,31 @@
     max-width: 90px;
 }
 
+#incrementSec{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    /* border-top: 2px solid #242424; */
+    border-bottom: 2px solid #191919;
+}
 
+.incrementUnit > h2{
+    text-align: center;
+    margin-bottom: 0.7em;
+    font-size: 6em;
+    font-weight: 700;
+}
+
+.incrementUnit > p{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+    color: #525252;
+}
 
 /* main Animation CSS */
 
@@ -196,6 +220,9 @@
     #ani-heading{
         font-size: 20px;
     }
+    #incrementSec{
+        font-size: 4px;
+    }
 }
 
 @media screen and (min-width: 480px) {
@@ -211,6 +238,9 @@
     #mainTitle{
         font-size: 25px;
         line-height: 29px;
+    }
+    #incrementSec{
+        font-size: 5px;
     }
     #ani-heading{
         font-size: 30px;
@@ -239,6 +269,9 @@
     #mainTitle{
         font-size: 30px;
         line-height: 35px;
+    }
+    #incrementSec{
+        font-size: 6px;
     }
     #ani-heading{
         font-size: 40px;
@@ -269,6 +302,9 @@
         line-height: 50px;
         width: 70%;
     }
+    #incrementSec{
+        font-size: 8px;
+    }
     #review-sec  h1{
         font-size: 50px;
     }
@@ -284,5 +320,8 @@
     #mainTitle{
         font-size: 60px;
         line-height: 65px;
+    }
+    #incrementSec{
+        font-size: 10px;
     }
 }
