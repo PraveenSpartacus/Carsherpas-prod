@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./CSS/navbar.css">
     <title>Document</title>
     <link rel="stylesheet" href="./CSS/studio.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./CSS/slider.css">
     <script src="./JS/lottie.js"></script>
 </head>
 <body>
@@ -19,13 +21,13 @@
                     <img id="nav-logo" src="./Assets/logo.svg" alt="">
                 </a>
                 <div id="mid-nav">
-                    <a class="nav-item" href="./index.html">Spotlight</a>
+                    <a class="nav-item" href="./spotlight.html">Spotlight</a>
                     <a class="nav-item" href="./products.html">Products</a>
-                    <a class="nav-item" href="./index.html">Services</a>
+                    <a class="nav-item" href="./services.html">Services</a>
                     <a class="nav-item" href="./studio.html">Studio</a>
-                    <a class="nav-item" href="./index.html">News</a>
+                    <a class="nav-item" href="./news.html">News</a>
                 </div>
-                <a class="nav-item" href="./index.html">
+                <a class="nav-item" href="./x.html">
                     <img id="nav-mode" src="./Assets/sun.svg" alt="">
                 </a>
             </nav>
@@ -36,7 +38,7 @@
                     </div>
                     <nav id="nav-bar">
                         <div class="nav-item">
-                            <a href="./spotlight.html">
+                            <a href="./index.html">
                                 <img src="./Assets/home-icon.svg" alt="">
                                 <p>Home</p>
                             </a>
@@ -48,25 +50,25 @@
                             </a>
                         </div>
                         <div class="nav-item">
-                            <a href="./spotlight.html">
+                            <a href="./products.html">
                                 <img src="./Assets/products-icon.svg" alt="">
                                 <p>Products</p>
                             </a>
                         </div>
                         <div class="nav-item">
-                            <a href="./spotlight.html">
+                            <a href="./services.html">
                                 <img src="./Assets/services-icon.svg" alt="">
                                 <p>Services</p>
                             </a>
                         </div>
                         <div class="nav-item">
-                            <a href="./spotlight.html">
+                            <a href="./studio.html">
                                 <img src="./Assets/studio-icon.svg" alt="">
                                 <p>Studio</p>
                             </a>
                         </div>
                         <div class="nav-item">
-                            <a href="./spotlight.html">
+                            <a href="./news.html">
                                 <img src="./Assets/news-icon.svg" alt="">
                                 <p>News</p>
                             </a>
@@ -78,19 +80,118 @@
                 <img src="./Assets/hamburger.svg" alt="">
             </div>
             <img id="grid" src="./Assets/square-grid.png" alt="">
-            <div id="hero-container" class="x">
+            <div id="hero-container" class="">
                 <div id="top-hero">
                     <h1>We help you by bringing customers</h1>
                     <p>Get more leads and sell more cars by utilizing digital marketing to the fullest. </p>
                 </div>
-                <div id="bottom-hero" class="x">
-                    <div id="lottie-container" class="x">
-                        <lottie-player class="lottie-player x" id="player" src="./JS/red-car-animation.json"  background="transparent"  speed="1"   loop autoplay></lottie-player>
+                <div id="bottom-hero" class="">
+                    <div id="lottie-container" class="">
+                        <lottie-player class="lottie-player " id="player" src="./JS/red-car-animation.json"  background="transparent"  speed="1"   loop autoplay></lottie-player>
                     </div>
                 </div>
             </div>
         </section>
-        <h1>Hello, World</h1>
+        <div id="brand-sec" class="">
+            <img src="./Assets/Studio/nissan.png" alt="">
+            <img src="./Assets/Studio/bmw.png" alt="">
+            <img src="./Assets/Studio/honda.png" alt="">
+        </div>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+	<!-- Slider start -->
+
+	<div class="section  over-hide px-4 px-sm-0">
+		<div class="container">
+			<div class="row  justify-content-center">
+				<div class="col-lg-10 col-xl-8 align-self-center padding-tb">
+					<div class="section mx-auto text-center slider-height-padding">
+			          	<input class="checkbox frst" type="radio" id="slide-1" name="slider" checked/>
+			          	<label for="slide-1"></label>
+			          	<input class="checkbox scnd" type="radio" name="slider" id="slider-2"/>
+			          	<label for="slider-2"></label>
+			          	<input class="checkbox thrd" type="radio" name="slider" id="slider-3"/>
+			          	<label for="slider-3"></label>
+			          	<input class="checkbox foth" type="radio" name="slider" id="slider-4"/>
+			          	<label for="slider-4"></label>
+						<ul>
+							<li>
+								<span>MALE GOOFY FACE</span>
+						    </li>
+							<li>
+								<span>TOY PIG</span>
+						    </li>
+							<li>
+								<span>SHY PORTRAIT</span>
+						    </li>
+							<li>
+								<span>SKATEBOARD FACE</span>
+						    </li>
+					    </ul>
+				    </div>
+			    </div>
+	      	</div>
+	    </div>
+	</div>
+
+    <!-- Slider end -->
+
+
+
+    <img class="waves" src="./Assets/waves-1.svg" alt="" >
+
+    <h1 id="achievements-heading">
+        Our Achievements
+    </h1>
+
+    <div id="ach-section" class="">
+        <img src="./Assets/Studio/achievements-img.svg" alt="">
+        <div class="ach-unit " id="ach-unit-1">
+            <h1>Title</h1>
+            <p>
+                Subtitle
+            </p>
+        </div>
+        <div class="ach-unit " id="ach-unit-2">
+            <h1>Title</h1>
+            <p>
+                Subtitle
+            </p>
+        </div>
+        <div class="ach-unit " id="ach-unit-3">
+            <h1>Title</h1>
+            <p>
+                Subtitle
+            </p>
+        </div>
+    </div>
+
+    
+    <div id="join-us-sec">
+        <h1>Want to join us?</h1>
+        <a href="./contactus.html">CONTACT US</a>
+    </div>
+    
+
     </div>
 </body>
 <script src="./JS/sidebar.js"></script>

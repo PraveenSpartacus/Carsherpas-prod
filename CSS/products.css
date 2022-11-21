@@ -3,13 +3,16 @@
     font-size: 10px;
     overflow-y: auto;
     padding: 0;
-    height: fit-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 #hero > h1{
     position: absolute;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     font-size: 4em;
+    z-index: 12;
 }
 
 #products-container{
@@ -89,6 +92,32 @@
     bottom: 0;
 }
 
+#better-sec{
+    position: absolute;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    flex-direction: column;
+    top: 180em;
+}
+
+#better-sec > h1{
+    font-weight: 700;
+    font-size: 3em;
+}
+
+#better-sec > a{
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    padding: 2em 4em;
+    margin: 4em 0 10em 0;
+}
+
+
 @media screen and (min-width: 0px){
     #hero > h1{
         top: 4em;
@@ -100,11 +129,42 @@
     .product{
         font-size: 7px;
     }
+    #better-sec{
+        top: 160em;
+    }
+    #better-sec > h1{
+        font-size: 2em;
+    }
+    #better-sec > a{
+        font-size: 1em;
+        padding: 2em 3.5em;
+    }
 }
 
 @media screen and (min-width: 480px){
     .product{
         font-size: 8px;
+    }
+    #better-sec{
+        top: 180em;
+    }
+    #better-sec > h1{
+        font-size: 2.5em;
+    }
+    #better-sec > a{
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width: 790px){
+    #better-sec{
+        top: 135em;
+    }
+    #better-sec > h1{
+        font-size: 2.8em;
+    }
+    #better-sec > a{
+        font-size: 1.9em;
     }
 }
 
@@ -120,8 +180,22 @@
         font-size: 9px;
     }
 
+    #better-sec{
+        top: 150em;
+    }
+
 }
 
 @media screen and (min-width: 1400px){
+    #better-sec{
+        top: 100em;
+    }
+
+    #better-sec > h1{
+        font-size: 3.2em;
+    }
+    #better-sec > a{
+        font-size: 2.3em;
+    }
 
 }

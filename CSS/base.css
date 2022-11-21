@@ -26,7 +26,7 @@ border-color: #ffffff47;
 
 @font-face {
     font-family: `Lunema`;
-    src: url('./fonts/Lunema_Bold.otf');
+    src: url('./fonts/Lunema_Bold.otf') format('opentype');
 }
 
 *{
