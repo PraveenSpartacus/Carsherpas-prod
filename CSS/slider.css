@@ -55,26 +55,26 @@
    display: inline-block;
    width: 50px;
    height: 50px;
-   border: 3px solid #bdc3c7;
+   border: 3px solid #353535;
    background-size: cover;
    background-position: center;
    box-sizing: border-box;
    -webkit-transition: all 0.2s ease;
    transition: all 0.2s ease;
-   background-image: url('https://assets.codepen.io/1462889/sl1.jpg');
+   background-image: url('https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
    animation: border-transform 6s linear infinite alternate forwards;
      -webkit-animation-play-state: paused;
      -moz-animation-play-state: paused;
      animation-play-state: paused;
  }
  .checkbox.scnd + label{
-   background-image: url('https://assets.codepen.io/1462889/sl2.jpg');
+   background-image: url('https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
  }
  .checkbox.thrd + label{
-   background-image: url('https://assets.codepen.io/1462889/sl3.jpg');
+   background-image: url('https://images.unsplash.com/photo-1557264322-b44d383a2906?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
  }
  .checkbox.foth + label{
-   background-image: url('https://assets.codepen.io/1462889/sl4.jpg');
+   background-image: url('https://images.unsplash.com/photo-1569521597715-0e0c4e22e0e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
  }
  
  .checkbox:checked + label{
@@ -120,10 +120,10 @@
    margin: 0;
    list-style: none;
    height: 400px;
-   border: 5px solid #bdc3c7;
+   border: 2px solid #5500ff;
    background-size: cover;
    background-position: center;
-   background-image: url('https://assets.codepen.io/1462889/sl1.jpg');
+   background-image: url('https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
    border-radius: 50%;
    box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
@@ -143,13 +143,13 @@
    mix-blend-mode: difference;
  }
  ul li:nth-child(2) {
-   background-image: url('https://assets.codepen.io/1462889/sl2.jpg');
+   background-image: url('https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
  }
  ul li:nth-child(3) {
-   background-image: url('https://assets.codepen.io/1462889/sl3.jpg');
+   background-image: url('https://images.unsplash.com/photo-1557264322-b44d383a2906?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
  }
  ul li:nth-child(4) {
-   background-image: url('https://assets.codepen.io/1462889/sl4.jpg');
+   background-image: url('https://images.unsplash.com/photo-1569521597715-0e0c4e22e0e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
  }
  
  
