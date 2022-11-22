@@ -11,7 +11,7 @@ function incrementFun(n,ele){
         if(count == n+1){
             clearInterval(interval);
         }
-    },10)    
+    },30)    
 }
 
 
