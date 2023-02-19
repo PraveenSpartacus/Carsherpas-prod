@@ -13,5 +13,8 @@ sidebarBack.onclick = () => {
 
 document.body.onload = (e) => {
     console.log('loaded');
-    document.body.classList.remove('not_loaded');
+    setTimeout(()=>{
+        document.body.classList.remove('not_loaded');
+    },2000);
+    
 }
